@@ -5,19 +5,8 @@ Contains random scripts I jotted down quickly to perform some operation. Collect
 
 
 
-##### capture_screenshot_from_video.py
-Captures screenshots at an interval of 1 second from a video.
-Input: Video
-Output: Series of images captures at interval of 1 second
-
-##### convert_image_to_grayscale.py
-Takes an image & makes a grayscale & binarized copy of the image.
-Original image is not overwritten.
-Input: Image
-Output: Grayscale image, binarized image.
-
-##### extract_every_frame_video.py
-Captures every frame from a video. (Every second could potentially contain 30+ frames)
-Input: Video
-Output: Series of images corresponding to each frame in the video.
-
+| Script | input | Ouptut | Description |
+| --- | --- | --- | --- |
+| capture_screenshot_from_video.py | Video | Series of images captures at interval of 1 second | Captures screenshots at an interval of 1 second from a video.
+| convert_image_to_grayscale.py | Image | Grayscale image, binarized image | Takes an image & makes a grayscale & binarized copy of the image. Original image is not overwritten. |
+| extract_every_frame_video.py | Video | Series of images corresponding to each frame in the video | Captures every frame from a video. (Every second could potentially contain 30+ frames) |
